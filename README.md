@@ -1,3 +1,3 @@
 # dlibModels
-![JapaneseBaldActor](https://github.com/TaguchiModels/dlibModels/assets/167880914/e0ca0f2b-519e-41d6-bf54-152914bb4143)
 
+![s-TaguchiModelsWithDlib](https://github.com/TaguchiModels/dlibModels/assets/167880914/9aaf0909-b092-42a8-99a4-56c138455bc4)
