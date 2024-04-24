@@ -1,4 +1,4 @@
-# dlibの顔認証モデルを日本人用にトレーニングした
+# 日本人用にトレーニングした dlib の顔認証モデル  
 
 ![s-TaguchiModelsWithDlib](https://github.com/TaguchiModels/dlibModels/assets/167880914/9aaf0909-b092-42a8-99a4-56c138455bc4)
 
@@ -9,5 +9,6 @@ dlib には優秀な顔認証モデルがあります。しかし、残念なが
 ※ 私のモデルは LFW ベンチマークの精度で xx.xx % の結果となりました。  
 
 加えて、日本人の俳優の分類も行いました。この下の画像は dlib『dlib_face_recognition_resnet_model_v1.dat』モデルを使用したときの分類結果です。
+![dlib_japannese_bald_actor](https://github.com/TaguchiModels/dlibModels/assets/167880914/29b2776c-8e9b-47e9-aeec-778f4ba8009e)
 
 `このREAD.meは執筆途中です`
