@@ -90,7 +90,7 @@ dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' は以下のリン
 
 # コンパイル方法
 dlib.net にコンパイル方法が記載されていますので参考にしてください。  
-[dlib.net compile](http://dlib.net/compile.html)/)
+[How to compile dlib](http://dlib.net/compile.html)
 
 # 制限事項
 私のモデルには訓練用データが不足しているため、精度が著しく悪い場合があります。
