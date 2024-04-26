@@ -12,7 +12,7 @@ dlib には優秀な顔認証モデルがあります。しかし、残念なが
 
 ![dlib_japannese_bald_actor](https://github.com/TaguchiModels/dlibModels/assets/167880914/29b2776c-8e9b-47e9-aeec-778f4ba8009e)
 
-# LFWデターセットによる dlib との精度の比較
+## LFWデターセットによる dlib との精度の比較
 私はある程度の客観性を提示するために LFW デターセットによる精度をテストしました。  
 まずは dlib のモデル "dlib_face_recognition_resnet_model_v1.dat" でテストしました。  
 結果は 0.993833% でした。
@@ -75,14 +75,14 @@ ERR thresh: 0.614296
 LFWデータセットはここから入手しました。  
 [LFW dataset](http://vis-www.cs.umass.edu/lfw/)
 
-# 650万の顔データセットによる訓練
+## 650万の顔データセットによる訓練
 私の顔認証モデルの訓練には、16,000人以上の人物の顔を合計で650万枚以上使用しました。  
 このうち約47%が日本人(日本人以外のアジア人も若干含む)の顔データです。  
 この訓練用データセットはいくつかの公開されていたデータセットに加えて、インターネットから収集したものを加えました。  
 最も苦労したのは、いくつかのデータセットの中には重複した人物が含まれていることです。  
 この重複した人物を取り除くことに多くの時間を要しました。  
 
-# 顔認証モデルの入手
+## 顔認証モデルの入手
 dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' および 'shape_predictor_5_face_landmarks.dat'は以下のリンクより取得してください。  
 
 [dlib.net/files](http://dlib.net/files/)
@@ -91,17 +91,17 @@ dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' および 'shape_p
 2024年5月のGW明けまでに準備が完了する見込みです。  
 今しばらくお待ちください。
 
-# コンパイル方法
+## コンパイル方法
 dlib.net にコンパイル方法が記載されていますので参考にしてください。  
 [How to compile dlib](http://dlib.net/compile.html)
 
-# 実行  
+## 実行  
 コンパイル後に出来たexeファイルと同じフォルダーに faces フォルダーを配置してください。  
 コマンドプロンプトより以下のコマンドを売ってください。  
  *Taguchi model の例）> dnn_face_recognition_ex faces/JapaneseBaldActor.jpg taguchi_face_recognition_resnet_model_v1.dat  
  *dlib model の例）> dnn_face_recognition_ex faces/JapaneseBaldActor.jpg dlib_face_recognition_resnet_model_v1.dat  
 
-# 制限事項
+## 制限事項
 私のモデルには訓練用データが不足しているため、精度が著しく悪い場合があります。  
 *アフリカ系のルーツを持つ人物  
 *18歳未満の人物  
