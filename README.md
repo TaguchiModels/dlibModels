@@ -83,7 +83,7 @@ LFWデータセットはここから入手しました。
 この重複した人物を取り除くことに多くの時間を要しました。  
 
 # 顔認証モデルの入手
-dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' は以下のリンクより取得してください。  
+dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' および 'shape_predictor_5_face_landmarks.dat'は以下のリンクより取得してください。  
 
 [dlib.net/files](http://dlib.net/files/)
 
