@@ -95,11 +95,17 @@ dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' および 'shape_p
 dlib.net にコンパイル方法が記載されていますので参考にしてください。  
 [How to compile dlib](http://dlib.net/compile.html)
 
+# 実行  
+コンパイル後に出来たexeファイルと同じフォルダーに faces フォルダーを配置してください。  
+コマンドプロンプトより以下のコマンドを売ってください。  
+ *Taguchi model の例）> dnn_face_recognition_ex faces/JapaneseBaldActor.jpg taguchi_face_recognition_resnet_model_v1.dat  
+ *dlib model の例）> dnn_face_recognition_ex faces/JapaneseBaldActor.jpg dlib_face_recognition_resnet_model_v1.dat  
+
 # 制限事項
 私のモデルには訓練用データが不足しているため、精度が著しく悪い場合があります。  
-*18未満の人物  
-*アフリカ系の人物  
-*マスク付けている人物  
+*アフリカ系のルーツを持つ人物  
+*18歳未満の人物  
+*マスクを付けている人物  
 上記の用途には向かないことがあります。  
 注意してご利用ください。  
 
