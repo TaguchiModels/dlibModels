@@ -84,6 +84,7 @@ LFWデータセットはここから入手しました。
 
 ## 顔認証モデルの入手
 dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' および 'shape_predictor_5_face_landmarks.dat'は以下のリンクより取得してください。  
+ `※ 拡張子に'.bz2'が付いていますので、ダウンロード後に解凍してください`  
 
 [dlib.net/files](http://dlib.net/files/)
 
@@ -103,9 +104,15 @@ dlib.net にコンパイル方法が記載されていますので参考にし�
  * 'taguchi_face_recognition_resnet_model_v1.dat' を配置してください。  
 
 コマンドプロンプトより以下のコマンドを打ってください。  
- * Taguchi model の例）> dnn_face_recognition_ex faces/JapaneseBaldActor.jpg taguchi_face_recognition_resnet_model_v1.dat  
- * dlib model の例）> dnn_face_recognition_ex faces/JapaneseBaldActor.jpg dlib_face_recognition_resnet_model_v1.dat  
-
+ * Taguchi model の例  
+    ```
+    > dnn_face_recognition_ex faces/JapaneseBaldActor.jpg taguchi_face_recognition_resnet_model_v1.dat
+    ```  
+ * dlib model の例
+    ```
+    > dnn_face_recognition_ex faces/JapaneseBaldActor.jpg dlib_face_recognition_resnet_model_v1.dat  
+    ```
+    
 ## 制限事項
 私のモデルには訓練用データが不足しているため、精度が著しく悪い場合があります。  
  * アフリカ系のルーツを持つ人物  
