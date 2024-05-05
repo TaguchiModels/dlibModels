@@ -88,10 +88,6 @@ dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' および 'shape_p
 
 [dlib.net/files](http://dlib.net/files/)
 
-私のモデル 'taguchi_face_recognition_resnet_model_v1.dat' は、まもなく掲載する予定です。  
-2024年5月のGW明けまでに準備が完了する見込みです。  
-今しばらくお待ちください。
-
 ## コンパイル方法
 dlib.net にコンパイル方法が記載されていますので参考にしてください。  
 [How to compile dlib](http://dlib.net/compile.html)
