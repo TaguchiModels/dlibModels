@@ -4,7 +4,7 @@
    This source code has been modified to use "taguchi_model_gender_classifier.dnn" instead of using 
    "resnet34_1000_imagenet_classifier.dnn".
 
-     Example) GenderModelClassifier faces
+     Example) GenderModelClassifier gender
 */
 
 
