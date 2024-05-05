@@ -88,6 +88,10 @@ dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' および 'shape_p
 
 [dlib.net/files](http://dlib.net/files/)
 
+私のモデル 'taguchi_face_recognition_resnet_model_v1.dat' は以下のリンクよりダウンロードして解凍してください。  
+
+[Taguchi's face recognition model](https://drive.google.com/file/d/1uMAZbPHiKOl6sjDgAoORn8g5U4wHQisW/view?usp=sharing)
+
 ## コンパイル方法
 dlib.net にコンパイル方法が記載されていますので参考にしてください。  
 [How to compile dlib](http://dlib.net/compile.html)
@@ -138,6 +142,10 @@ dlib の性別判定モデルのソースコードは、github/dlib 'dnn_gender_
 私の性別判定モデルの訓練には、顔画像ファイルを合計で50万枚以上使用しました。  
 このうち約40%が日本人(日本人以外のアジア人も若干含む)の顔データです。  
 この訓練用データセットはいくつかの公開されていたデータセットに加えて、インターネットから収集したものを加えました。  
+
+私のモデル 'taguchi_model_gender_classifier.dnn' は以下のリンクよりダウンロードして解凍してください。  
+
+[Taguchi's gender model](https://drive.google.com/file/d/1TeWWBfaRkPEyudFwMVo7iNHVRNAInJQA/view?usp=sharing)
 
 ## コンパイル方法
 私の性別判定モデルのソースコードは、'GenderModelClassifier.cpp' です。  
