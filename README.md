@@ -89,8 +89,13 @@ dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' および 'shape_p
 
 [Taguchi's face recognition model](https://drive.google.com/file/d/1uMAZbPHiKOl6sjDgAoORn8g5U4wHQisW/view?usp=sharing)
 
-## コンパイル方法
-dlib.net にコンパイル方法が記載されていますので参考にしてください。  
+## コンパイル方法  
+私は Visual studio を使ってコンパイルしています。
+* Visual studio 2022  (V143)  
+* ISO C++14  
+* x64, Release  
+
+詳しくは dlib.net にコンパイル方法が記載されていますので参考にしてください。  
 [How to compile dlib](http://dlib.net/compile.html)
 
 ## 実行  
