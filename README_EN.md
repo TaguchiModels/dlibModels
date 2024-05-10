@@ -90,7 +90,12 @@ Please download and unzip my model 'taguchi_face_recognition_resnet_model_v1.dat
 [Taguchi's face recognition model](https://drive.google.com/file/d/1uMAZbPHiKOl6sjDgAoORn8g5U4wHQisW/view?usp=sharing)
 
 ## How to compile  
-Please refer to dlib.net, which describes how to compile it.  
+I'm using Visual studio to compile.
+*Visual studio 2022 (V143)
+*ISO C++14
+* x64, Release
+
+For more details, please refer to dlib.net, which describes how to compile it.
 [How to compile dlib](http://dlib.net/compile.html)
 
 ## Execution method  
@@ -146,7 +151,12 @@ Please download and unzip my model 'taguchi_model_gender_classifier.dnn' from th
 
 ## How to compile  
 The source code for my gender classification model is 'GenderModelClassifier.cpp'.  
-Please refer to dlib.net, which describes how to compile it.  
+I'm using Visual studio to compile.
+*Visual studio 2022 (V143)
+*ISO C++14
+* x64, Release
+
+For more details, please refer to dlib.net, which describes how to compile it.
 [How to compile dlib](http://dlib.net/compile.html)
 
 ## Running the Taguchi model  
