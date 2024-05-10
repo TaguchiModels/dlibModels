@@ -151,7 +151,12 @@ dlib の性別判定モデルのソースコードは、github/dlib 'dnn_gender_
 
 ## コンパイル方法
 私の性別判定モデルのソースコードは、'GenderModelClassifier.cpp' です。  
-dlib.net にコンパイル方法が記載されていますので参考にしてください。  
+私は Visual studio を使ってコンパイルしています。
+* Visual studio 2022  (V143)  
+* ISO C++14  
+* x64, Release  
+
+詳しくは dlib.net にコンパイル方法が記載されていますので参考にしてください。  
 [How to compile dlib](http://dlib.net/compile.html)
 
 ## Taguchi モデルの実行  
