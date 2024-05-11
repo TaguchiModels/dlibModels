@@ -85,10 +85,6 @@ Please obtain the dlib models 'dlib_face_recognition_resnet_model_v1.dat' and 's
 
 [dlib.net/files](http://dlib.net/files/)
 
-Please download and unzip my model 'taguchi_face_recognition_resnet_model_v1.dat' from the link below.  
-
-[Taguchi's face recognition model](https://drive.google.com/file/d/1uMAZbPHiKOl6sjDgAoORn8g5U4wHQisW/view?usp=sharing)
-
 ## How to compile  
 I'm using Visual studio to compile.
 *Visual studio 2022 (V143)
