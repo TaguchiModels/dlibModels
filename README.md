@@ -85,10 +85,6 @@ dlib のモデル 'dlib_face_recognition_resnet_model_v1.dat' および 'shape_p
 
 [dlib.net/files](http://dlib.net/files/)
 
-私のモデル 'taguchi_face_recognition_resnet_model_v1.dat' は以下のリンクよりダウンロードして解凍してください。  
-
-[Taguchi's face recognition model](https://drive.google.com/file/d/1uMAZbPHiKOl6sjDgAoORn8g5U4wHQisW/view?usp=sharing)
-
 ## コンパイル方法  
 私は Visual studio を使ってコンパイルしています。
 * Visual studio 2022  (V143)  
