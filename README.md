@@ -13,7 +13,7 @@ dlib には優秀な顔認証モデルがあります。しかし、残念なが
 ![dlib_japannese_bald_actor](https://github.com/TaguchiModels/dlibModels/assets/167880914/29b2776c-8e9b-47e9-aeec-778f4ba8009e)
 
 ## LFWデターセットによる dlib との精度の比較
-私はある程度の客観性を提示するために LFW デターセットによる精度をテストしました。  
+私はある程度の客観性を提示するために LFW データセットによる精度をテストしました。  
 まずは dlib のモデル "dlib_face_recognition_resnet_model_v1.dat" でテストしました。  
 結果は 0.993833% でした。
 
